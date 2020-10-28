@@ -1,0 +1,29 @@
+.container-cards{
+    
+    margin: 8%;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: center;
+}
+.Card{
+    box-sizing: border-box;
+    padding: 30px;
+    width: calc(100%/3);
+    height: 300px;
+}
+
+.cardProfile{
+    background-color: #fadcac;
+}
+.cardLearn{
+    background-color: #158467;
+}
+.cardInterest{
+    background-color: #197163;
+}
+.cardExpectations{
+    background-color: #065446;
+}
